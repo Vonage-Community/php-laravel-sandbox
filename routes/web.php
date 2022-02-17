@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\IncomingCallController;
+use App\Http\Controllers\IncomingSmsController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,4 +19,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/incoming', IncomingCallController::class);
+Route::get('/incomingVoice', IncomingCallController::class);
+Route::post('/incomingSms', IncomingSmsController::class);
