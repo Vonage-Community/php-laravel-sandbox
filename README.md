@@ -1,3 +1,3 @@
 Vonage PHP Sandbox
 
-A Laravel skeleton app to let developers muck around with the PHP SDK.
+A Laravel skeleton app to let developers test the Vonage PHP SDK.
